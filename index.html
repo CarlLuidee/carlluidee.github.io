@@ -30,8 +30,8 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#credentials" id="credentials-link"><span class="icon solid fa-file">Credentials</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<!-- <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li> -->
 							</ul>
 						</nav>
 
@@ -41,13 +41,14 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 							<li><a href="https://www.linkedin.com/in/carlluideelim/" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href="https://github.com/CarlLuidee" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-							<li><a href="carlluideelim@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="2532056966" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
+							<!-- <li><a href="#" class="icon solid fa-phone" onclick="navigator.clipboard.writeText('carlluideelim@gmail.com'); return false;">
+								<span class="label">Email</span>
+							</a></li> -->
+							<!-- <li><a href="#" class="icon solid fa-phone" onclick="navigator.clipboard.writeText('2532056966'); return false;">
+								<span class="label">Phone</span>
+							</a></li> -->
 						</ul>
 
 				</div>
@@ -63,7 +64,7 @@
 
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Carl</strong></h2>
-								<p>I'm a Computer Science student at <strong>Seattle Pacific University</strong>.</p>
+								<p>I'm a student at Seattle Pacific University majoring in Computer Science<br> Graduating in <strong>June 2027</strong></p>
 							</header>
 
 							<footer>
@@ -74,7 +75,7 @@
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="two">
 						<div class="container">
 
 							<header>
@@ -83,13 +84,33 @@
 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
-							<p>I was born and raised in the Philippines and moved to America in 2019. Growing up in a poor neighborhood, my family didn't have much, so I watched YouTube DIY tutorials and built my own toys and little knick-knacks to entertain myself. It was these videos that sparked my interest in engineering and ignited my passion to use my skills so that no child has to face the same hardships as I did.</p>
+							<p>
+								I was born and raised in the Philippines and moved to America in 2019. Growing up in a poor neighborhood, my family didn't have much, so I watched YouTube DIY tutorials and built my own toys and little knick-knacks to entertain myself. It was these videos that sparked my interest in engineering and ignited my passion to use my skills so that no child has to face the same hardships as I did.
+							</p>
+
+						</div>
+					</section>
+
+				<!-- Credentials -->
+					<section id="credentials" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Credentials</h2>
+							</header>
+							
+							<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+							
+							<h3>Microsoft Certified: Azure AI Apps and Agents Developer Associate</h3>
+							<p>
+								Azure AI Engineer certification demonstrating my ability to build, manage, and deploy AI agents, leveraging Microsoft Foundry and Azure services, including generative AI, agentic solutions, computer vision, text analysis, and information extraction, all implemented in a Python environment, to deliver AI solutions.
+							</p>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="portfolio" class="four">
 						<div class="container">
 
 							<header>
@@ -101,46 +122,26 @@
 									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 									<header>
 										<h3>Recipe Archive Manager</h3>
+										<p id="description">
+											Languages: C++ and SQL<br>
+											Tools: VSCode and Git<br>
+											I designed the user interface, helped implement CRUD functions, and performed testing and debugging.<br>
+											A user-friendly personal recipe manager that lets users manage their recipes in a simple, clean, and organized environment. The app stores users’ recipe data in a local database, allowing them to access their recipes offline, without the hassle of physical media or the need to be constantly connected to the internet. 
+										</p>
 									</header>
 								</article>
 								<article class="item">
 									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 									<header>
-										<h3>ClassRoam (Work in Progress)</h3>
+										<h3>ClassRoam</h3>
+										<p>
+											ClassRoam is an upcoming navigation application that will help users navigate campuses. It uses detailed map information, including building interiors, floors, and individual rooms, live location tracking, smart guidance, and an AI assistant to deliver accurate and adaptable routes.
+										</p>
 									</header>
 								</article>
 							</div>
 						</div>
 					</section>
-
-				<!-- Contact -->
-					<!-- <section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section> -->
 
 			</div>
 
@@ -149,7 +150,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; 2026</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</div>
